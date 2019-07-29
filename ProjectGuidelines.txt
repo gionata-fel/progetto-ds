@@ -1,0 +1,53 @@
+Project goal: create a data analyst workflow
+
+Key skills: data gathering, data visualization, data analysis, programming, statistics, presenting results, logic
+
+Optional skills: web scraping, math
+
+Project description: in this project you have to replicate the work of a data scientist. The following steps are
+required:
+1. Data collection: you need to collect the data you want to analyze. The lecturers will give you some
+popular dataset, but you can decide to use different ones of your choice. It is required that you specify
+how the data was collected/generated (statistical study, synthetic data, collected by online service,
+made up) and where you got them from, and check if the data source is reliable (for the data given by
+the instructors you can consider the source reliable), and write a brief motivation for why it is or is not
+and your degree of confidence.
+2. Data preprocessing: you need to understand the data you are analyzing and prepare it for the machine
+learning algorithms. This can include, but could not be limited to, handling missing data, transforming
+the data using linear (e.g. scaling) or non linear (e.g. logarithmics tranforms) tranformations, plotting
+data distributions, binning, encoding.
+3. Baseline predictor definition: create a baseline predictor to test machine learning algorithm against.
+This can be an euristic algorithm or a simple ML algorithm (e.g. mean, linear regression, random
+predictor).
+4. Prediciton: you need to choose some machine learning algorithms and analyze the data with them. You
+must decide how much time to spend on calibration. We suggest you use python sklearn module, but
+feel free to use any other module you like (e.g. xgboost, keras, tensorflow).
+5. Comparison: you need to compare the algorithms you have chosen based on a metric of your choice.
+For example, in a classification analysis you can use accuracy. Give a brief explanation of the metric you
+chose and why you think it is good.
+6. Calibration: you must choose the best performing algorithm from the previous phase and calibrate it.
+7. Presenting the results: you need to produce some plots of the analyses you performed. This is a step
+which should be done throughout the data analysis process. Remeber that quantity doesn’t win over
+quality, all the plots should have a meaning and you must be able to justify why you produced them.
+For plotting we suggest to use matplotlib.pyplot and seaborn. If you feel brave and want something
+more interactive and “web ready” you can give plotly a shot.
+All the steps must be written in readable python code (remember to use python’s coding conventions).
+You must be able to justify each decision you make.
+
+Deliverables:
+- A presentation of at least 10 slides containing the plots and logic steps you followed in your analysis.
+- A .py file containing the python source code used for the analysis. This file must contain the code for the
+plots. In order to keep code cleaner, you can deliver a folder containing more than one python script
+(e.g. one for the analyses, one for the plots, one containg custom functions and classes)
+Valuation criteria: you will have to present your results in a 30 minutes live web session (per group)
+with the lecturers, and you will be judged on an individual basis. That means that if you are in group,
+each member will need to present a part of the results
+
+Groups: the project can be completed alone or in groups of at most 2 people
+Group list with the name of the members of each group must be sent to fintech@lumsa.it by August 4th, 2019
+
+Delivery deadline: 22/09/2019 - 23:59:59 (GMT + 2 Central European Time)
+
+Document to be sent to: fintech@lumsa.it, ancamirela.toma01@universitadipavia.it
+
+Discussion: 26-28/09/2019 (TBC)

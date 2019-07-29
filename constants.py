@@ -1,6 +1,7 @@
 # Dataset column names
 CABIN = "Cabin"
 EMBARKED = "Embarked"
+EMBARKED_C = "Embarked_C"
 AGE = "Age"
 SEX = "Sex"
 SEX_MALE = "Sex_male"
@@ -8,6 +9,7 @@ TICKET = "Ticket"
 PASSENGER_ID = "PassengerId"
 NAME = "Name"
 SURVIVED = "Survived"
+FARE = "Fare"
 
 # Constant for analysis
 TEST_SCORE = "test_score"

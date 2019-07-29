@@ -7,13 +7,9 @@ from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.neural_network import MLPClassifier
 from sklearn.model_selection import cross_validate, GridSearchCV
 
-from mock_up_ds.preprocessing import *
-from mock_up_ds.constants import *
-from mock_up_ds.utils import BaselineClassifierTitanic
-
-
-# baseline_test_score = np.mean(x_test[SEX_MALE] != y_test)
-# print("Baseline test accuracy: {:.3f}".format(baseline_test_score))
+from preprocessing import *
+from constants import *
+from utils import BaselineClassifierTitanic, TitanicNNClassifier
 
 
 models = {
@@ -25,6 +21,7 @@ models = {
           "Random Forest": RandomForestClassifier(),
           "Gradient Boosting": GradientBoostingClassifier(),
           "Neural Network": MLPClassifier(),
+          "Custom ANN": TitanicNNClassifier()
          }
 
 train_accuracies = pd.DataFrame(index=models.keys(), columns=[AVERAGE, PCT_STANDARD_DEVIATION])

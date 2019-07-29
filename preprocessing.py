@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.model_selection import train_test_split
 
-from mock_up_ds.constants import *
+from constants import *
 
 DATA_PATH = "./data"
 DATA_FILENAME = "train.csv"
@@ -14,14 +14,6 @@ DATA_FILEPATH = os.path.join(DATA_PATH, DATA_FILENAME)
 
 raw_data = pd.read_csv(DATA_FILEPATH)
 data = raw_data.copy()
-
-if __name__ == "main":
-    print(data.describe())
-
-    plt.figure()
-    sns.heatmap(data.isnull())
-    plt.show()
-
 
 data.drop([CABIN, PASSENGER_ID, TICKET, NAME], axis=1, inplace=True)
 
