@@ -9,7 +9,7 @@ required:
 1. Data collection: you need to collect the data you want to analyze. The lecturers will give you some
 popular dataset, but you can decide to use different ones of your choice. It is required that you specify
 how the data was collected/generated (statistical study, synthetic data, collected by online service,
-made up) and where you got them from, and check if the data source is reliable (for the data given by
+made up) and where you got them from, check if the data source is reliable (for the data given by
 the instructors you can consider the source reliable), and write a brief motivation for why it is or is not
 and your degree of confidence.
 2. Data preprocessing: you need to understand the data you are analyzing and prepare it for the machine
@@ -19,7 +19,7 @@ data distributions, binning, encoding.
 3. Baseline predictor definition: create a baseline predictor to test machine learning algorithm against.
 This can be an euristic algorithm or a simple ML algorithm (e.g. mean, linear regression, random
 predictor).
-4. Prediciton: you need to choose some machine learning algorithms and analyze the data with them. You
+4. Prediction: you need to choose some machine learning algorithms and analyze the data with them. You
 must decide how much time to spend on calibration. We suggest you use python sklearn module, but
 feel free to use any other module you like (e.g. xgboost, keras, tensorflow).
 5. Comparison: you need to compare the algorithms you have chosen based on a metric of your choice.
